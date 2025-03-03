@@ -6,7 +6,8 @@ import FreshCart from "../assets/img/FreshCart.png";
 import SevenMentorWeb from "../assets/img/SevenMentor.png";
 import ZomBiz from "../assets/img/ZomBiz.png";
 import addtocart from "../assets/img/addtocart.jpeg"
-// import Gym from "../assets/img/Gym.png";
+import TodoList from "../assets/img/TodoList.webp"
+import Gym from "../assets/img/Gym.png";
 import NotesSaver from "../assets/img/Notes.avif";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -46,10 +47,10 @@ export const Projects = () => {
       link: 'https://yashjambure007.github.io/SevenMentorWeb/'
     },
     {
-      title: "Business Startup",
+      title: "Todo List",
       description: "Design & Development",
-      imgUrl: CreativeAgency,
-       link: 'https://yashjambure007.github.io/CreativeAgency/'
+      imgUrl: TodoList,
+       link: 'https://todo-list-five-taupe-22.vercel.app/'
     },
     {
       title: "FreshCart Website",
@@ -67,16 +68,16 @@ export const Projects = () => {
        link: 'https://yashjambure007.github.io/ZomBiz/'
     },
     {
-      title: "Business Startup",
+      title: "Creative Agency",
       description: "Design & Development",
       imgUrl: CreativeAgency,
-       link: 'https://yashjambure007.github.io/CreativeAgency/'
+       link: 'https://creative-agency-c6tv.vercel.app/'
     },
     {
-      title: "FreshCart Website",
+      title: "Gym",
       description: "Design & Development",
-      imgUrl: FreshCart,
-      link: 'https://yashjambure007.github.io/FreshCart/'
+      imgUrl: Gym,
+      link: 'https://gym-proj-tau.vercel.app/'
     },
   ];
 
