@@ -34,7 +34,7 @@ export const Projects = () => {
       title: "Notes App",
       description: "Design & Development",
       imgUrl: NotesSaver,
-      link: 'https://notes-app-xvzw.vercel.app/'
+      link: 'https://notes-app-roan-nu-54.vercel.app/'
     },
   ];
 
