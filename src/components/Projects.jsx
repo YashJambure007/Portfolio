@@ -157,7 +157,7 @@ export const Projects = () => {
         </Row>
       </Container>
       <img className="background-image-right" src={colorSharp2}></img>
-      <a href="https://github.com/YashJambure007" className="gitanc">For More Information Visit GitHub <FaGithub className="git"/></a>
+      <a href="https://github.com/YashJambure007" className="gitanc">For Detail Codes Visit GitHub <FaGithub className="git"/></a>
     </section>
   )
 }

@@ -4,7 +4,6 @@ import headerImg from "../assets/img/header-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -60,7 +59,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Yash`} <span className="txt-rotate" data-rotate='[ "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
                 <p>Architecting Digital Experiences: From Vision to Execution With Seamless Front-End Elegance and Back-End Power</p>
-                  <a href="" className="tagline">Resume</a>
+                  <a href="/public/RESUME-YASH JAMBURE.pdf" target="_blank" rel="noopener noreferrer" className="tagline">Resume</a>
               </div>}
             </TrackVisibility>
           </Col>
