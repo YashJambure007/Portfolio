@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
@@ -11,7 +12,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   // eslint-disable-next-line no-unused-vars
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Full Stack Developer"];
+  const toRotate = [ "Front End Developer"];
   const period = 3000;
 
   useEffect(() => {
@@ -20,7 +21,6 @@ export const Banner = () => {
     }, delta);
 
     return () => { clearInterval(ticker) };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text])
 
   const tick = () => {
@@ -57,8 +57,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Yash`} <span className="txt-rotate" data-rotate='[ "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
-                <p>Architecting Digital Experiences: From Vision to Execution With Seamless Front-End Elegance and Back-End Power</p>
+                <h1>{`Hi! I'm Yash`} <span className="txt-rotate" data-rotate='[ "Front End Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <p>Front-end development is where creativity meets functionality, crafting digital experiences that leave lasting impressions</p>
                   <a href="/public/RESUME-YASH JAMBURE.pdf" target="_blank" rel="noopener noreferrer" className="tagline">Resume</a>
               </div>}
             </TrackVisibility>

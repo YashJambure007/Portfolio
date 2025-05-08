@@ -64,7 +64,7 @@ export const Skills = () => {
                   <h5>React</h5>
                 </div>
                 <div className="item">
-                  <img src={seventy} alt="Image" />
+                  <img src={sixtyfive} alt="Image" />
                   <h5>Node</h5>
                 </div>
                 <div className="item">
@@ -72,7 +72,7 @@ export const Skills = () => {
                   <h5>Express</h5>
                 </div>
                 <div className="item">
-                  <img src={sixtyfive} alt="Image" />
+                  <img src={seventy} alt="Image" />
                   <h5>MongoDB</h5>
                 </div>
               </Carousel>
