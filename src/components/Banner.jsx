@@ -12,7 +12,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   // eslint-disable-next-line no-unused-vars
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Front End Developer"];
+  const toRotate = [ "Full Stack Web Developer", "Front End Developer"];
   const period = 3000;
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Yash`} <span className="txt-rotate" data-rotate='[ "Front End Developer" ]'><span className="wrap">{text}</span></span></h1>
-                <p>Front-end development is where creativity meets functionality, crafting digital experiences that leave lasting impressions</p>
+                <p>Unifying front-end elegance and back-end power to deliver seamless, end-to-end digital solutions.</p>
               </div>}
             </TrackVisibility>
           </Col>

@@ -64,12 +64,20 @@ export const Skills = () => {
                   <h5>React</h5>
                 </div>
                 <div className="item">
+                  <img src={eighty} alt="Image" />
+                  <h5>Redux</h5>
+                </div>
+                <div className="item">
+                  <img src={eighty} alt="Image" />
+                  <h5>ShadCN</h5>
+                </div>
+                <div className="item">
                   <img src={sixtyfive} alt="Image" />
-                  <h5>Node</h5>
+                  <h5>Node.js</h5>
                 </div>
                 <div className="item">
                   <img src={seventy} alt="Image" />
-                  <h5>Express</h5>
+                  <h5>Express.js</h5>
                 </div>
                 <div className="item">
                   <img src={seventy} alt="Image" />
