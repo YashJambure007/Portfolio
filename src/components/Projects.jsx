@@ -13,15 +13,35 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import { FaGithub } from "react-icons/fa";
 import TrackVisibility from 'react-on-screen';
+import ChatApp from "../assets/img/ChatSS.png";
+import Registration from "../assets/img/Registration.jpg"
 
 export const Projects = () => {
 
   const projects = [
     {
+      title: "Chat Application ",
+      description: "Design & Development",
+      imgUrl:  ChatApp,
+      link: 'https://chat-application-kv7rzveto-yash-jambures-projects.vercel.app/'
+    },
+    {
       title: "CarFinder Website ",
       description: "Design & Development",
       imgUrl:  CarFinder,
       link: 'https://yashjambure007.github.io/CarFinder/'
+    },
+    {
+      title: "Registration Form",
+      description: "Design & Development",
+      imgUrl: Registration,
+      link: ''
+    },
+    {
+      title: "Notes App",
+      description: "Design & Development",
+      imgUrl: NotesSaver,
+      link: 'https://notes-app-roan-nu-54.vercel.app/'
     },
     {
       title: "Add To Cart",
@@ -31,21 +51,16 @@ export const Projects = () => {
     },
     
     {
-      title: "Notes App",
-      description: "Design & Development",
-      imgUrl: NotesSaver,
-      link: 'https://notes-app-roan-nu-54.vercel.app/'
-    },
-  ];
-
-  const projectsss = [
-  
-    {
       title: "SevenMentor Website",
       description: "Design & Development",
       imgUrl: SevenMentorWeb,
       link: 'https://yashjambure007.github.io/SevenMentorWeb/'
-    },
+    }
+    
+  ];
+
+  const projectsss = [
+  
     {
       title: "Todo List",
       description: "Design & Development",
@@ -58,15 +73,15 @@ export const Projects = () => {
       imgUrl: FreshCart,
       link: 'https://yashjambure007.github.io/FreshCart/'
     },
-  ];
-
-  const projectss = [
     {
       title: "ZomBiz",
       description: "Design & Development",
       imgUrl: ZomBiz,
        link: 'https://yashjambure007.github.io/ZomBiz/'
-    },
+    }
+  ];
+
+  const projectss = [
     {
       title: "Creative Agency",
       description: "Design & Development",
@@ -78,7 +93,7 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: Gym,
       link: 'https://gym-proj-tau.vercel.app/'
-    },
+    }
   ];
 
   return (
@@ -157,7 +172,7 @@ export const Projects = () => {
         </Row>
       </Container>
       <img className="background-image-right" src={colorSharp2}></img>
-      <a href="https://github.com/YashJambure007" className="gitanc">For Detail Codes Visit GitHub <FaGithub className="git"/></a>
+      <a href="https://github.com/YashJambure007" className="gitanc">For More Code Details Visit GitHub <FaGithub className="git"/></a>
     </section>
   )
 }

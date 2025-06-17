@@ -12,7 +12,7 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   // eslint-disable-next-line no-unused-vars
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Full Stack Web Developer", "Front End Developer"];
+  const toRotate = [ "Full Stack Developer", "Front End Developer"];
   const period = 3000;
 
   useEffect(() => {

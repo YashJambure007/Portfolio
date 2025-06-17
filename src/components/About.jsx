@@ -28,7 +28,7 @@ const personalDetails = [
 
 const jobSummary =
 
-  "Driven by design and powered by code, I craft seamless, responsive interfaces that transform ideas into engaging digital experiences";
+  "Bridging the gap between logic and design, full stack development transforms ideas into reality Every line of code powers innovation from front to back";
 
 const About = () => {
   return (
@@ -47,7 +47,7 @@ const About = () => {
               transform: "translatex(0px)",
             }}
           >
-            <h3>Front End Developer</h3>
+            <h3>Full Stack Developer</h3>
             <p>{jobSummary}</p>
           </Animate>
 
