@@ -23,7 +23,7 @@ export const Projects = () => {
       title: "Chat Application ",
       description: "Design & Development",
       imgUrl:  ChatApp,
-      link: 'https://chat-application-kv7rzveto-yash-jambures-projects.vercel.app/'
+      link: 'https://chat-application-1825ekzag-yash-jambures-projects.vercel.app'
     },
     {
       title: "CarFinder Website ",
