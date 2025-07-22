@@ -29,7 +29,7 @@ export const Projects = () => {
       title: "Add To Cart",
       description: "Design & Development",
       imgUrl: addtocart,
-       link: 'https://vercel.com/yash-jambures-projects/cart-management-system-front'
+       link: 'https://cart-management-system-front.vercel.app/'
     },
     {
       title: "CarFinder Website ",
