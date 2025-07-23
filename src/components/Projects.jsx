@@ -26,6 +26,18 @@ export const Projects = () => {
       link: 'https://chat-application-1825ekzag-yash-jambures-projects.vercel.app'
     },
     {
+      title: "Cart Management System",
+      description: "Design & Development",
+      imgUrl: addtocart,
+      link: 'https://cart-management-system-front.vercel.app/'
+    },
+    {
+      title: "Notes Saver Application",
+      description: "Design & Development",
+      imgUrl: NotesSaver,
+      link: 'https://notes-app-roan-nu-54.vercel.app/'
+    },
+    {
       title: "CarFinder Website ",
       description: "Design & Development",
       imgUrl:  CarFinder,
@@ -37,19 +49,6 @@ export const Projects = () => {
       imgUrl: Registration,
       link: ''
     },
-    {
-      title: "Notes App",
-      description: "Design & Development",
-      imgUrl: NotesSaver,
-      link: 'https://notes-app-roan-nu-54.vercel.app/'
-    },
-    {
-      title: "Add To Cart",
-      description: "Design & Development",
-      imgUrl: addtocart,
-       link: 'https://add-to-cart-4uiiura5q-yash-jambures-projects.vercel.app/'
-    },
-    
     {
       title: "SevenMentor Website",
       description: "Design & Development",
