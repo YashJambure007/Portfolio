@@ -55,11 +55,9 @@ export const Projects = () => {
       imgUrl: SevenMentorWeb,
       link: 'https://yashjambure007.github.io/SevenMentorWeb/'
     }
-    
   ];
 
   const projectsss = [
-  
     {
       title: "Todo List",
       description: "Design & Development",
