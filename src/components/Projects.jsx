@@ -41,7 +41,7 @@ export const Projects = () => {
       title: "CarFinder Website ",
       description: "Design & Development",
       imgUrl:  CarFinder,
-      link: 'https://yashjambure007.github.io/CarFinder/'
+      link: 'https://car-finder-project.vercel.app/'
     },
     {
       title: "Registration Form",
@@ -53,7 +53,7 @@ export const Projects = () => {
       title: "SevenMentor Website",
       description: "Design & Development",
       imgUrl: SevenMentorWeb,
-      link: 'https://yashjambure007.github.io/SevenMentorWeb/'
+      link: 'https://seven-mentor-web.vercel.app/'
     }
   ];
 
@@ -68,13 +68,13 @@ export const Projects = () => {
       title: "FreshCart Website",
       description: "Design & Development",
       imgUrl: FreshCart,
-      link: 'https://yashjambure007.github.io/FreshCart/'
+      link: 'https://fresh-cart-project-rosy.vercel.app/'
     },
     {
       title: "ZomBiz",
       description: "Design & Development",
       imgUrl: ZomBiz,
-       link: 'https://yashjambure007.github.io/ZomBiz/'
+       link: 'https://zom-biz-project.vercel.app/'
     }
   ];
 
