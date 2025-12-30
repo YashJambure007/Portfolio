@@ -13,7 +13,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import { FaGithub } from "react-icons/fa";
 import TrackVisibility from 'react-on-screen';
-import ChatApp from "../assets/img/ChatSS.png";
+import ChatApp from "../assets/img/ChatApp.jpeg";
 import Registration from "../assets/img/Registration.jpg"
 
 export const Projects = () => {
